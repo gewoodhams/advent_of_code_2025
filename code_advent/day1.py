@@ -1,0 +1,7 @@
+string = "jingle BelLs, Jingle Bells jingle all the way Oh what fun it is to ride in a One horse open sleigh Jingle bells, Jingle Bells Jingle aLl the way Oh what fun it is to ride in a one Horse open sleigh Dashing through the snow In a one horse open sleigh Over the hills we go Laughing all the way Bells on Bobtails ring Making spirits bright What fun it is to ride and sing A sleighing song tonight Jingle Bells, Jingle Bells Jingle all the way Oh what fun it is to ride in a One horse open sleigh Jingle bells, jingle Bells Jingle all the way Oh what fun it is to ride in a one Horse open sleigh Dashing through the snow In a one horse open sliegh Over the hills we go Laughing all the way BelLs on Bobtails ring Making spirits bright What fun it is to ride and sing A sleighing song tonight jingLe Bells, Jingle Bells, jingle all the way Oh what fun it is to ride in a One horse open sleigh Jingle beLls, Jingle Bells Jingle all the way Oh what fun it is to ride in a one Horse open sleigh Jingle Bells, jingle Bells jingle all the way Oh what fun it is to ride in a One horse open sleigh JingLe bells, Jingle Bells jingle all the way Oh what fun it is to ride in a one Horse open sleigh "
+total = 0
+
+for i in range(len(string)):
+    if string[i] == 'J' or string[i] == 'j' or string[i] == 'L' or string[i] == 'l':
+        total += 1
+print(i)
